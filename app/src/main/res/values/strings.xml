@@ -3,6 +3,8 @@
     <string name="hi">Привет</string>
     <string name="bye">Пока</string>
     <string name="start">Старт</string>
-    <string name="myName">СУЛТАНОВ ТИМУР АЗАТОВИЧ РИБО-04-22</string>
+    <string name="pre_start">Перед тем как начать введите пароль: </string>
+    <string name="myName">СУЛТАНОВ ТИМУР АЗАТОВИЧ РИБО–04-22</string>
+
 
 </resources>

@@ -32,7 +32,7 @@ public class CalcActivity extends AppCompatActivity {
             String firstTermStr = editTextFirst.getText().toString();
             String secondTermStr = editTextSecond.getText().toString();
             if(!firstTermStr.isEmpty()&& !secondTermStr.isEmpty()){
-                int result = Integer.parseInt(firstTermStr)/Integer.parseInt(secondTermStr);
+                float result = Float.parseFloat(firstTermStr)/Float.parseFloat(secondTermStr);
                 Intent intent = new Intent();
                 intent.putExtra("data", result);
                 setResult(RESULT_OK,intent);
